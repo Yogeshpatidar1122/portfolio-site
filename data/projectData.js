@@ -19,12 +19,12 @@ export const projectData = [
   },
   {
     
-    name: "Next Portfolio Website",
+    name: "Portfolio Website",
     description: "Hello and thank you for visiting my personal portfolio. Here, you'll find a curated collection showcasing my skills, experiences, and passion in various domains. As a versatile individual with a commitment to excellence, I've crafted this portfolio to offer you insight into my journey, projects, and contributions.",
     img: '/img/portfolio.png',
     techStack:"NextJS, React.js, Tailwind CSS,",
-    code: "https://github.com/Yogeshpatidar1122/personal-portfolio",
-    live: "https://personal-portfolio-alpha-dun.vercel.app/",
+    code: "https://github.com/Yogeshpatidar1122/portfolio-site",
+    live: "https://portfolio-site-alpha-kohl.vercel.app/",
   } ,
   {
     
