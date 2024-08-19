@@ -1,17 +1,17 @@
 import Image from "next/image.js";
 import Link from "next/link.js";
-import sneha from "../public/img/sneha.jpg";
+import yogesh from "../public/img/yogesh.jpg";
 import Layout from "../components/Layout.js";
 
 export default function Home() {
   return (
-    <Layout metaTitle="Sneha Ratnani: Front-End Web Developer">
+    <Layout metaTitle="yogesh Patidar: Front-End Web Developer">
       <>
         <div className="text-center h-[90vh] flex flex-col items-center justify-center px-5">
           <div className="h-[150px] w-[150px] mb-6 border-4 border-gray-200 dark:border-gray-700 rounded-full">
             <Image
-              src={sneha}
-              alt="Sneha Ratnani"
+              src={yogesh}
+              alt="Yogesh Patidar"
               width={150}
               height={150}
               placeholder="blur"
@@ -24,7 +24,7 @@ export default function Home() {
             hey, I&#39;m
           </p>
           <p className="font-semibold text-7xl mb-4 mt-2 capitalize">
-            Sneha ratnani
+            Yogesh Patidar
           </p>
           <p className="md:w-3/4 lg:w-[38rem]">
             A front-end developer from India. I like creating beautiful,

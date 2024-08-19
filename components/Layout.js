@@ -18,11 +18,11 @@ export default function Layout({ children, metaTitle }) {
         />
         <meta
           property="og:url"
-          content={`https://sneharatnani.com${router.asPath}`}
+          content={`https://yogeshpatidar.com${router.asPath}`}
         />
         <link
           rel="canonical"
-          href={`https://sneharatnani.com${router.asPath}`}
+          href={`https://yogeshpatidar.com${router.asPath}`}
         />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Sneha Ratnani" />

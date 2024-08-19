@@ -28,12 +28,12 @@ export const skillsData = [
     caption: "Firebase",
   },
   {
-    image: "/icons/webpack.svg",
-    caption: "Webpack",
+    image: "/icons/mongodb.svg",
+    caption: "MongoDB",
   },
   {
-    image: "/icons/jest.svg",
-    caption: "Jest",
+    image: "/icons/bootstrap.svg",
+    caption: "Bootstrap",
   },
   {
     image: "/icons/nextjs.svg",
@@ -53,8 +53,8 @@ export const skillsData = [
     caption: "Git",
   },
   {
-    image: "/icons/linux.svg",
-    caption: "Linux CLI",
+    image: "/icons/Vscode.svg",
+    caption: "Vs Code",
   },
   {
     image: "/icons/netlify.svg",

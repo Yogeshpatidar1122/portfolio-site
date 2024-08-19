@@ -1,53 +1,65 @@
 export const projectData = [
   {
-    name: "NoteWind",
-    alt: "A device showing screenshot of notewind project",
-    img: "/img/notewind.png",
-    description:
-      "NoteWind is a note-taking app that allows you to create, edit, delete, and archive notes. Users can sign in and sign out using firebase authentication. You can filter as well as search notes. It also has features like changing note backgrounds, pin and unpin notes, and adding, editing, or removing labels.",
-    techStack: "Firebase, React.js, Tailwind CSS, Jest, Testing Library",
-    live: "http://notewind.netlify.app/",
-    code: "https://github.com/sneharatnani/notewind",
+    name: "Grocery Store",
+    alt: 'image',
+    img:'/img/grocerystore.png',
+    description: "This project is a modern web application designed for managing a grocery store, built using the following technologies Strapi: A powerful and flexible headless CMS that provides an easy way to manage content and APIs.ShadCN: A component library that brings accessibility and design consistency to the front-end.Next.js: A React framework that offers server-side rendering, static site generation, and a seamless development experience.MongoDB: A NoSQL database used for efficient data storage and retrieval.The combination of these tools allows for a dynamic and scalable grocery store platform, enabling easy content management, efficient user interactions, and robust backend support.",
+    techStack:"Next.js, React.js, Tailwind CSS, Strapi CMS ,mongoDB",
+    code: "https://github.com/Yogeshpatidar1122/Grocery-store",
+    live: "https://grocery-store-tan.vercel.app/",
   },
   {
-    name: "Shopping Cart",
-    alt: "A device showing screenshot of shopping cart website",
-    img: "/img/shopping-cart.png",
-    description:
-      "This is an eCommerce website built with React.js. Users can browse the available products and give orders with a fully functional cart. You can also check individual product details and adjust the number of products you want to buy.",
-    techStack: "React.js, Redux, Tailwind CSS",
-    live: "https://sneharatnani.github.io/shopping-cart/",
-    code: "https://github.com/sneharatnani/shopping-cart",
+    name: "ChatApp Next",
+    alt: 'image',
+    img:'/img/chatapp.png',
+    description: "Developed ChatApp, a real-time messaging application using Next.js, MongoDB, Prisma, NextAuth.js, React Spinner,Date-fns and other modern technologies.Key features include real-time messaging, media sharing, group chats, and flexible authentication options	Implemented responsive design for seamless user experience across devices,	Contributed to project documentation and actively involved in bug fixes and feature implementations.Demonstrated ability to work collaboratively in a team environment and contribute effectively to project development.",
+    techStack:"Firebase, React.js, Tailwind CSS,MongoDB",
+    code: "https://github.com/Yogeshpatidar1122/nextjs_chatApp",
+    live: "https://chatapp-ecru-tau.vercel.app/",
   },
   {
-    name: "Weather App",
-    alt: "A device showing screenshot of weather app",
-    img: "/img/weather-app.png",
-    description:
-      "This app shows the current weather of a city. It uses OpenWeatherMap API to fetch the weather data. It can also show weather based on the user's current location using Geolocation API. The app changes the background according to different weather conditions.",
-    techStack:
-      "JavaScript, HTML, CSS, Webpack, Jest, OpenWeatherMap API, Geolocation API",
-    live: "https://sneharatnani.github.io/weather-app/",
-    code: "https://github.com/sneharatnani/weather-app",
+    
+    name: "Next Portfolio Website",
+    description: "Hello and thank you for visiting my personal portfolio. Here, you'll find a curated collection showcasing my skills, experiences, and passion in various domains. As a versatile individual with a commitment to excellence, I've crafted this portfolio to offer you insight into my journey, projects, and contributions.",
+    img: '/img/portfolio.png',
+    techStack:"NextJS, React.js, Tailwind CSS,",
+    code: "https://github.com/Yogeshpatidar1122/personal-portfolio",
+    live: "https://personal-portfolio-alpha-dun.vercel.app/",
+  } ,
+  {
+    
+    name: "AmazonPro||E-commerce Application",
+    description: "AmazonPro is an Ecommerce website clone to purchase the things online.Crafted user-friendly interfaces with a keen emphasis on intuitive navigation, delivering a seamless shopping experience that delights customers., Created secure stripe payment gateway, ensuring transaction safety and reliability for user during checkout process Optimized backend systems, utilizing technologies such as, React, MongoDB, Stripe, Tailwind Css, Mongoose, JWT for authentication and Tailwind to enhance platform performance ",
+    img: "/img/amazonpro.png",
+    techStack:"NextJs, MongoDB,Prisma, Tailwind CSS,",
+    code: "https://github.com/Yogeshpatidar1122/Next_AmazonPro",
+    live: "https://next-amazon-pro.vercel.app/",
   },
   {
-    name: "Memory Game",
-    alt: "A device showing screenshot of memory game",
-    img: "/img/memory-game.png",
-    description:
-      "As the name suggests, it is a game to test players' memory. The emojis shuffle after every selection. The goal is to maximize your score by not selecting the same emoji again. The game shows the current and best score of a player. It is Unit Tested with Jest and React Testing Library.",
-    techStack: "React.js, Tailwind CSS, Jest, Testing Library",
-    live: "https://sneharatnani.github.io/memory-game/",
-    code: "https://github.com/sneharatnani/memory-game",
+    
+    name: "RENT N DRIVE ",
+    description: "RENT N DRIVE is an website provide facility for rent a car for one day or a week on easily and cheaply.",
+    img: "/img/rentndrive.png",
+    techStack:"React.js, Tailwind CSS,MongoDb,Prisma",
+    code: "https://github.com/Yogeshpatidar1122/RENT_N_DRIVE_nextapp",
+    live: "https://rent-n-drive-nextapp.vercel.app/",
   },
   {
-    name: "Calculator",
-    alt: "A device showing screenshot of calculator",
-    img: "/img/calculator.png",
-    description:
-      "It is a simple Javascript calculator which can handle your daily calculations easily. It also has keyboard support.",
-    techStack: "JavaScript, HTML, CSS",
-    live: "https://sneharatnani.github.io/calculator/",
-    code: "https://github.com/sneharatnani/calculator",
+    
+    name: "Netflix Clone",
+    description: "Netflix clone is based on netflix original app where you can create sign up your account and stream movies and show freely.Developed a Netflix clone using Next.js, Tailwind CSS, and Shade UI, with authentication via NextAuth.js and database management with Prisma and MongoDB.Ensured responsive design, efficient media streaming, and robust testing. Deployed with optimizations and comprehensive documentation, collaborating via Git for efficient development",
+    img: "/img/netflix.png",
+    techStack:"NextJS, MongoDb, Rapid Api, Tailwind CSS,",
+    code: "/https://github.com/Yogeshpatidar1122/next-netflix-clone",
+    live: "/https://next-netflix-clone-teal.vercel.app/auth",
+  },
+  {
+    
+    name: "React Global News",
+    description: "React global news is an web application where you read different types of news of different genre.●	Developed a React-based desktop application for personalized news delivery.Enabled reading thousands of daily news articles with a user-friendly interface.	Technologies: React for frontend, REST API (NEWS API) for fetching news, and additional React libraries ",
+    img: "/img/globalnews.png",
+    
+    code: "https://github.com/Yogeshpatidar1122/React_GlobalNews",
+    live: "https://yogeshpatidar1122.github.io/React_GlobalNews/",
   },
 ];
